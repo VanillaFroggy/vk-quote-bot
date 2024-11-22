@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: vk-quote-bot
+
+vk:
+  api-url: "https://api.vk.com/method"
+  token: "your_token"
+  confirmation-code: "your_confirmation_code"
