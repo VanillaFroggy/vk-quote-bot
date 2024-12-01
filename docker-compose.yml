@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  app:
+    container_name: vk-quote-bot
+    restart: always
+    build: .
+    ports:
+      - "8080:8080"
+    env_file:
+      - ".env"
+    environment:
+      ACCESS_TOKEN: ${ACCESS_TOKEN}
+      CONFIRMATION_CODE: ${CONFIRMATION_CODE}
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

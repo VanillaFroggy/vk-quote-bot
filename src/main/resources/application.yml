@@ -3,6 +3,6 @@ spring:
     name: vk-quote-bot
 
 vk:
-  api-url: "https://api.vk.com/method"
-  token: "your_token"
-  confirmation-code: "your_confirmation_code"
+  api-url: https://api.vk.com/method
+  token: ${ACCESS_TOKEN}
+  confirmation-code: ${CONFIRMATION_CODE}

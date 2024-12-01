@@ -1,4 +1,4 @@
 vk:
-  api-url: "test-url"
-  token: "testing-token"
-  confirmation-code: "testing-code"
+  api-url: test-url
+  token: testing-token
+  confirmation-code: testing-code
